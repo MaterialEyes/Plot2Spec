@@ -1,0 +1,3 @@
+[submodule "tusimple-benchmark"]
+	path = tusimple-benchmark
+	url = git@github.com:TuSimple/tusimple-benchmark.git

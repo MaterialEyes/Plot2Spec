@@ -1,0 +1,53 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: lanenet
+spec:
+  volumes:
+    - name: dshm
+      emptyDir:
+        medium: Memory
+    - hostPath:
+        path: /datashare
+      name: datashare
+ 
+  securityContext:
+    runAsUser: 119
+    fsGroup: 119
+ 
+  restartPolicy: Never
+ 
+  imagePullSecrets:
+  - name: regcred
+ 
+  containers:
+    - name: lanenet
+      image: docker.artifactory.ascentrobotics.jp/lanenet
+      command: ["/bin/bash"]
+      args: ["-c", "cd /datashare/users/sang/works/lanenet; make train DATASET=tusimple BATCH_SIZE=32"]
+      computeResourceRequests: ["nvidia-gpu"]
+ 
+      resources:
+        requests:
+          cpu: "8"
+          memory: "32Gi"
+        limits:
+          cpu: "8"
+          memory: "64Gi"
+ 
+      volumeMounts:
+      - mountPath: /dev/shm
+        name: dshm
+      - mountPath: /datashare
+        name: datashare
+         
+  computeResources:
+    - name: "nvidia-gpu"
+      resources:
+        limits:
+          nvidia.com/gpu: 2 
+      affinity:
+        required:
+          - key: "nvidia.com/gpu-memory"
+            operator: "Gt"
+            values: ["32000"]

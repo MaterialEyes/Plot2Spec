@@ -1,0 +1,6 @@
+
+*.pyc
+src/__pycache__
+src/.ipynb_checkpoints
+notebooks/.ipynb_checkpoints
+output

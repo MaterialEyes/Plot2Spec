@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+test_demo_images/0.jpg   	450                      	0.9981
+test_demo_images/1.jpg   	750                      	0.9994
+test_demo_images/2.jpg   	1050                     	0.9967
+test_demo_images/3.jpg   	300                      	0.9992
+test_demo_images/4.jpg   	600                      	0.9973
+test_demo_images/5.jpg   	900                      	0.9995
+test_demo_images/6.jpg   	raman                    	0.9998
+test_demo_images/7.jpg   	shift                    	0.9993
+test_demo_images/8.jpg   	icm                      	0.5501
+test_demo_images/9.jpg   	i                        	0.6921
