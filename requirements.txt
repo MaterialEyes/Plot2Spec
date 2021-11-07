@@ -1,0 +1,47 @@
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+certifi==2020.6.20
+charset-normalizer==2.0.7
+cycler==0.10.0
+debugpy @ file:///tmp/build/80754af9/debugpy_1629214122703/work
+decorator @ file:///tmp/build/80754af9/decorator_1632776554403/work
+entrypoints==0.3
+fonttools==4.25.0
+idna==3.3
+ipykernel @ file:///tmp/build/80754af9/ipykernel_1633534655931/work/dist/ipykernel-6.4.1-py3-none-any.whl
+ipython @ file:///tmp/build/80754af9/ipython_1635944169458/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+jedi @ file:///tmp/build/80754af9/jedi_1611333729159/work
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1630690655192/work
+jupyter-core @ file:///tmp/build/80754af9/jupyter_core_1633420104186/work
+kiwisolver @ file:///tmp/build/80754af9/kiwisolver_1612281846643/work
+matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1634667019719/work
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+mkl-fft==1.3.1
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186066731/work
+mkl-service==2.4.0
+munkres==1.1.4
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1634095651905/work
+olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
+opencv-python==4.5.4.58
+pandas==1.3.4
+parso @ file:///tmp/build/80754af9/parso_1617223946239/work
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==8.4.0
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+Pygments @ file:///tmp/build/80754af9/pygments_1629234116488/work
+pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz==2021.3
+pyzmq @ file:///tmp/build/80754af9/pyzmq_1628275385016/work
+requests==2.26.0
+scipy==1.7.2
+sip==4.19.13
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+tornado @ file:///tmp/build/80754af9/tornado_1606942317143/work
+tqdm==4.62.3
+traitlets @ file:///tmp/build/80754af9/traitlets_1632522747050/work
+urllib3==1.26.7
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work

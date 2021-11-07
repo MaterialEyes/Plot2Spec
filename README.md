@@ -34,6 +34,21 @@ put the checkpoints.zip in the root dir and unzip it.
 ```bash
 unzip checkpoints.zip
 ``` 
+
+
+### collect sample graph images from journals
+
+1. install necessary dependencies:
+```bash
+pip install -r requirements.txt
+``` 
+2. run the script: (current code will collect ~500 raman graph images from Nature)
+```bash
+python collect_data.py
+```
+
+
+
  
 
 ### TODO: 
