@@ -55,7 +55,7 @@ class CityscapesDataset(Dataset):
         sample = {}
 
         # load image
-        image = Image.open(self.image_list[index])
+        image = Image.open(self.image_list[index]).convert("RGB")
         sample['image'] = image
         sample['im_name'] = self.image_list[index]
 
