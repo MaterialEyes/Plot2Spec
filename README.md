@@ -9,6 +9,20 @@ Different types of spectroscopies, such as X-ray absorption near edge structure 
 
 If you find this tool or any of its derived capabilities useful, please consider registering as a user of Center for Nanoscale Materials. We will keep you posted of latest developments, as well as opportunities for computational resources, relevant data, and collaboration. Please contact Maria Chan (mchan@anl.gov) for details.
 
+# Updates
+
+## version 20220609
+### set up environment
+```bash
+conda create -n test_plot2spec python=3.8.5
+conda activate test_plot2spec
+conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0 -c pytorch
+pip install mmcv-full==1.3.4 -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.0/index.html
+pip install mmdet==2.11.0
+pip install distinctipy==1.1.5 tqdm==4.59.0 scikit-learn==0.24.1 scikit-image==0.18.1 scipy==1.6.1 pyyaml==5.4.1 opencv-python==4.5.1.48 opencv-contrib-python==4.5.2.52 nltk==3.6.2 notebook==6.2.0 numpy==1.20.1 lmdb==1.2.1 matplotlib==3.3.4 jedi==0.18.0 imageio==2.9.0 natsort==7.1.1
+![image](https://user-images.githubusercontent.com/33094931/172921138-20bf2be8-2571-4e68-8402-80691e02e43c.png)
+
+```
 
 
 
