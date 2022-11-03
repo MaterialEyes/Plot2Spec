@@ -301,7 +301,7 @@ class SimuData():
         self.char_list.remove('$')
         self.num_annotation_line = kwargs.get("num_annotation_line", 4)
         self.num_annotation_word = kwargs.get("num_annotation_line", 10)
-        self.font_type = glob.glob("/usr/share/fonts/truetype/freefont/*.ttf")
+        self.font_type = glob.glob("/usr/share/fonts/truetype/*/*.ttf")
         self.color_dict = {
             "r": (255,0,0),
             "g": (0,255,0),
